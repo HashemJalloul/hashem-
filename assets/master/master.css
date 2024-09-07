@@ -24,3 +24,22 @@
 .menu-item:hover a{
     color: black;
 }
+.hrader-img{
+    background-image: url("../imges/personally-identifiable-information-clipboard-d-text-office-supplies-desk-rendering-toned-image-79733999.webp");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.header-title{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 90px;
+}
