@@ -1,40 +1,48 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     background-color: black;
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
- 
-} .menu-item{
+
+}
+
+.menu-item {
     padding: 20px;
 }
-.menu-item a{
+
+.menu-item a {
     color: white;
     text-decoration: none;
 }
-.menu-item:hover{
-  background-color: white;  
+
+.menu-item:hover {
+    background-color: white;
 }
-.menu-item:hover a{
+
+.menu-item:hover a {
     color: black;
 }
-.hrader-img{
+
+.hrader-img {
     background-image: url("../imges/personally-identifiable-information-clipboard-d-text-office-supplies-desk-rendering-toned-image-79733999.webp");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
-.header-title{
+
+.header-title {
     background-color: black;
     color: white;
     display: flex;
@@ -42,4 +50,40 @@
     align-items: center;
     width: 100px;
     height: 90px;
+}
+
+.cards {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .card {
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: -5px 16px 40px -11px gray;
+    height: max-content;
+}
+
+.cards .card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.card h2{
+    color: gray;
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.card button{
+    background-color: rgb(79, 163, 136);
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px 0;
+    border: none;
+    padding: 10px;
+    color: white;
 }
